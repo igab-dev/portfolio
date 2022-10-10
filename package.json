@@ -11,10 +11,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "firebase": "^9.0.1",
-    "mobx": "^6.6.2"
-  },
   "devDependencies": {
     "copy-webpack-plugin": "^8.1.0",
     "css-loader": "^5.2.0",
