@@ -1,4 +1,5 @@
 import '../css/app.css';
+import '../css/json-viewer.css';
 
 //Play Button
 var playBtn = document.getElementById('contact');
@@ -137,7 +138,3 @@ document.getElementById("contact").onclick = displayContact;
 document.getElementById("tab-1").onclick = displayAbout;
 document.getElementById("tab-2").onclick = displaySchooling;
 document.getElementById("tab-3").onclick = displayCarrer;
-
-if(window.innerHeight > window.innerWidth){
-    alert("Please use Landscape!");
-}
