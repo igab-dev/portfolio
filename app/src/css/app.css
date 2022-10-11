@@ -75,7 +75,7 @@ html {
   color: #EA4C89;
 }
 
-/*# sourceMappingURL=index.css.map */
+
 
 
 .wrapper-content {
@@ -98,7 +98,6 @@ html {
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
 
@@ -198,4 +197,14 @@ h5 {
 
 .stack-name {
   font-weight: 600;
+}
+
+.pdf-wrapper, .two-collums {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdf-wrapper {
+  display: flex;
+  align-items: center;
 }

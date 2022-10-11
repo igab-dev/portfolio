@@ -2,7 +2,7 @@ import '../css/app.css';
 import '../css/timeline.css';
 import '../css/contact_button.css';
 import '../css/tab.css';
-import '../css/json-viewer.css';
+import '../css/buttons.css';
 
 import { displayContact } from "./views/display_contact";
 import { displayAbout } from "./views/display_about";
