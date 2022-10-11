@@ -1,4 +1,7 @@
 import '../css/app.css';
+import '../css/timeline.css';
+import '../css/contact_button.css';
+import '../css/tab.css';
 import '../css/json-viewer.css';
 
 //Play Button
