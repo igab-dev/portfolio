@@ -5,6 +5,7 @@ const CssMinimizerWebpackPlugin = require('css-minimizer-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
+    mode: 'development',
     entry: './app/src/js/app.js',
     output: {
         filename: 'bundle.js',
