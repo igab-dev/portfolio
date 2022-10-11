@@ -141,6 +141,7 @@ p {
   .load {
     display: flex;
   }
+
   .container {
     display: none;
   }
@@ -163,22 +164,38 @@ h5 {
   font-size: 2rem;
 }
 
+
 .stacks {
-  border: 1px solid var(--primary);
+  align-items: center;
   border-radius: 12px;
-  padding: 10px;
-  width: 130px;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+  color: var(--primary);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: 170px;
 }
+
 .stacks-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px -25px -25px;
 }
 
 .stack-title {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top: 10px;
+}
+
+.stack-image {
+  width: 30px;
+}
+
+.stack-name {
+  font-weight: 600;
 }

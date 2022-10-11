@@ -1,4 +1,9 @@
-function displaySchooling() {
+import {contactContent, about, carrer, schooling, shadowButton, playButton} from "./export_contents";
+
+//Status first click timeline
+var statusSchooling = 0;
+
+export function displaySchooling() {
 
     about.style.display = "none";
     document.getElementById("tab-1").checked = false;

@@ -1,4 +1,9 @@
-function displayCarrer() {
+import {contactContent, about, carrer, schooling, shadowButton, playButton} from "./export_contents";
+
+//Status first click timeline
+var statusCarrer = 0;
+
+export function displayCarrer() {
 
     about.style.display = "none";
     document.getElementById("tab-1").checked = false;

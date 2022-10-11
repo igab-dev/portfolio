@@ -1,4 +1,6 @@
-function displayContact() {
+import {contactContent, about, carrer, schooling, shadowButton, playButton} from "./export_contents";
+
+export function displayContact() {
 
     about.style.display = "none";
     document.getElementById("tab-1").checked = false;

@@ -1,4 +1,6 @@
-function displayAbout() {
+import {contactContent, about, carrer, schooling, shadowButton, playButton} from "./export_contents";
+
+export function displayAbout() {
 
 
     schooling.style.display = "none";
