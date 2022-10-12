@@ -17,5 +17,5 @@ export function displayContact() {
         playButton();
     };
 
-    contactContent.style.display = "contents";
+    contactContent.style.display = "flex";
 };
