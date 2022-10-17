@@ -1,5 +1,6 @@
 ### A simple curriculum project  
-To view: https://igab.dev
+See in: [`https://igab.dev`](https://igab.dev)
+
 
 ### References:  
 [`Neumorphic Elements by Maria Marin`](https://codepen.io/myacode/pen/PoqQQNM)  
