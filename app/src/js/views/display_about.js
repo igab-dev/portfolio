@@ -2,7 +2,6 @@ import {contactContent, about, carrer, schooling, shadowButton, playButton} from
 
 export function displayAbout() {
 
-
     schooling.style.display = "none";
     document.getElementById("tab-2").checked = false;
 
@@ -21,4 +20,5 @@ export function displayAbout() {
 
     about.style.display = "contents";
     document.getElementById("tab-1").checked = true;
+    
 };
